@@ -42,8 +42,8 @@ Install dependencies by running Cell 1 of the notebook.
    - **Cell 11**: Generate submission.csv (Inference)
 
 ## Approach Summary
-- Base model: `HuggingFaceTB/SmolVLM-500M-Instruct`
-- Parameter-efficient fine-tuning: LoRA applied to attention and MLP layers (r=7, <5M trainable parameters)
+- Base model: `HuggingFaceTB/SmolVLM-500M-Instruct` (500M total parameters)
+- Parameter-efficient fine-tuning: LoRA applied to attention and MLP layers (r=7, **trainable params: 4,490,240 < 5M limit**)
 - Image captioning: BLIP-generated captions injected into prompt
 - Rich prompt: image caption + subject/grade/topic metadata + lecture + hint + question + choices
-- Inference: logit-based scoring with Test-Time Augmentation (3 prompt variants)
+- Inference: logit-based scoring with Test-Time Augmentation (3 prompt variants)Sonnet 4.6
