@@ -26,7 +26,7 @@ Install dependencies by running Cell 1 of the notebook.
 1. Upload the competition dataset zip file to Google Drive at:
    `MyDrive/pixels-to-predictions.zip`
 
-2. Open `pixels_to_predictions.ipynb` in Google Colab
+2. Open `final_submissioncode.ipynb` in Google Colab
 
 3. Run all cells in order:
    - **Cell 1**: Install dependencies
