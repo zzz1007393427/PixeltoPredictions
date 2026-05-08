@@ -6,6 +6,7 @@ This repository contains the training and inference code for the Pixels to Predi
 **Final Kaggle Public Score: 0.81287**
 
 ## Repository Structure
+- `final_submissioncode.ipynb` — Full training and inference notebook
 
 ## Model Weights
 Pre-trained LoRA adapter weights are available at:
